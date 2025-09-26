@@ -1,0 +1,18 @@
+QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 21:59:04 on Sep 21,2025
+vlog "+define+UVM_NO_DPI" -sv "+acc" "+cover" "+fcover" -l sr_ff.log top.sv "+incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src" 
+-- Compiling module master_bridge
+-- Compiling module slave1
+-- Compiling module slave2
+-- Compiling module APB_Protocol
+-- Compiling interface apb_interface
+-- Compiling package apb_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Error: (vlog-13069) ** while parsing file included at top.sv(4)
+** while parsing file included at apb_pkg.sv(5)
+** at apb_sequence_item.sv(1): near "apb_sequence_item": syntax error, unexpected IDENTIFIER.
+** Error: ** while parsing file included at top.sv(4)
+** while parsing file included at apb_pkg.sv(5)
+** at apb_sequence_item.sv(1): (vlog-13205) Syntax error found in the scope following 'ass'. Is there a missing '::'?
+End time: 21:59:04 on Sep 21,2025, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0

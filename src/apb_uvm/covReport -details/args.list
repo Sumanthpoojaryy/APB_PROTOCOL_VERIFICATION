@@ -1,0 +1,4 @@
+-html
+coverage_name.ucdb
+-htmldir
+covReport -details
